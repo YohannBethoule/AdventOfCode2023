@@ -1,0 +1,19 @@
+package main
+
+import "AdventOfCode2023/pkg"
+
+func Star1() {
+	scan := pkg.ReadFile("")
+
+	for scan.Scan() {
+		line := scan.Text()
+	}
+}
+
+func Star2() {
+	scan := pkg.ReadFile("")
+
+	for scan.Scan() {
+		line := scan.Text()
+	}
+}
