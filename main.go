@@ -13,4 +13,4 @@ func main() {
 
 	day3.Star1()
 	day3.Star2()
-}
+)
