@@ -18,5 +18,6 @@ func main() {
 	//day6.Star1()
 	//day6.Star2()
 
-	day7.Star1()
+	//day7.Star1()
+	day7.Star2()
 }
