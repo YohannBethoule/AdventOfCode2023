@@ -2,8 +2,16 @@ package main
 
 import "AdventOfCode2023/pkg"
 
+type Input Struct {
+
+}
+
 func Star1() {
-	scan := pkg.ReadFile("")
+	parseInput()
+}
+
+func parseInput() Input {
+    scan := pkg.ReadFile("")
 
 	for scan.Scan() {
 		line := scan.Text()
@@ -11,9 +19,4 @@ func Star1() {
 }
 
 func Star2() {
-	scan := pkg.ReadFile("")
-
-	for scan.Scan() {
-		line := scan.Text()
-	}
 }
