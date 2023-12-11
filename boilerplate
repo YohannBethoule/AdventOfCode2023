@@ -11,7 +11,7 @@ func Star1() {
 }
 
 func parseInput() Input {
-    scan := pkg.ReadFile("")
+    scan := pkg.ReadFile("./day/input")
 
 	for scan.Scan() {
 		line := scan.Text()
